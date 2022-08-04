@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color:chartreuse">DAY-3 INTERVIEW QUESTIONS</h1>
+    <h1 style="background-color:darkkhaki">Question 1</h1>
+    <h2 style="background-color:lightcoral">What are promises and why do we need them? </h2>
+    Promises are used to handle asynchronous operations in JavaScript. 
+    <br>They are easy to manage when dealing with multiple asynchronous operations where callbacks can create callback hell leading to unmanageable code.
+
+    <h1 style="background-color:darkkhaki">Question 2</h1>
+    <h2 style="background-color:lightcoral">What is the purpose of async/await keywords? </h2>
+    The async keyword turns a method into an async method, which allows you to use the await keyword in its body. When the await keyword is applied, it suspends the calling method and yields control back to its caller until the awaited task is complete. 
+    <br>
+    Await can only be used inside an async method.
+    <br>
+    The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains. Async functions may also be defined as expressions
+    <h1 style="background-color:darkkhaki">Question 3</h1>
+    <h2 style="background-color:lightcoral"> What is hoisting?</h2>
+    JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. 
+    <br>Hoisting allows functions to be safely used in code before they are declared.
+    <br>
+    For example, // using test before declaring console.log(test); // undefined var test; The above program works and the output will be undefined .
+    <h1 style="background-color:darkkhaki">Question 4</h1>
+    <h2 style="background-color:lightcoral">What is the DOM? </h2>
+    DOM stands for Document Object Model is a programming API for HTML and XML documents. 
+    <br>
+    It defines the logical structure of documents and the way a document is accessed and manipulated.
+    <br>
+    
+The DOM is a tree-like representation of the web page that gets loaded into the browser. It represents the web page using a‌‌ series of objects. The main object is the document object, which in turn houses other objects which also house their own objects, and so on.
+    <h1 style="background-color:darkkhaki">Question 5</h1>
+    <h2 style="background-color:lightcoral">Difference between undefined vs not defined vs NaN ? </h2>
+    The undefined property indicates that the variable has not been assigned a value or not declared at all. The NaN property represents a “Not-a-Number” value. The NaN property indicates that a value is not a legitimate number
+    <h1 style="background-color:darkkhaki">Question 6</h1>
+    <h2 style="background-color:lightcoral"> How many operators do we have in JS ?</h2>
+    In JavaScript,we have basically 7 operators:
+    <br>
+    Bitwise AND Operator (&)
+    <br>
+    Bitwise OR operator(|)
+    <br>
+    Bitwise XOR Operator (^)
+    <br>
+
+    Bitwise NOT Operator (~) 
+    <br>
+
+    Left Shift Operator (<<) 
+    <br>
+
+    Right Shift Operator (>>) 
+    <br>
+
+    Ternary Operator
+    <br>
+    <h1 style="background-color:darkkhaki">Question 7</h1>
+    <h2 style="background-color:lightcoral">What are pure functions? </h2>
+    A function is called pure function which gives same output for the same input passed. <br>
+    It doesn't depends upon variables whose value might change in future.
+    <br>
+    It gives same values.
+    <h1 style="background-color:darkkhaki">Question 8</h1>
+    <h2 style="background-color:lightcoral">What is callback hell ?</h2>
+    Callback hell is a condition that afflicts  when we tries to execute multiple asynchronous operations one after the other. 
+    <br>
+    We can avoid the callback hell with the help of Promises. Promises in javascript are a way to handle asynchronous operations in JavaScript. It allows us to return a value from an asynchronous function like synchronous functions.
+    <h1 style="background-color:darkkhaki">Question 9</h1>
+    <h2 style="background-color:lightcoral">What is promise chaining ?</h2>
+    Promise chaining is a syntax that allows you to chain together multiple asynchronous tasks in a specific order.
+    <br> This is great for complex code where one asynchronous task needs to be performed after the completion of a different asynchronous task.
+    <h1 style="background-color:darkkhaki">Question 10</h1>
+    <h2 style="background-color:lightcoral"> What are arrow functions?</h2>
+    Arrow function is one of the features introduced in the ES6 version of JavaScript.
+    <br> It allows you to create functions in a cleaner way compared to regular functions. 
+    Arrow functions are a new way to write anonymous function expressions.
+    <h1 style="background-color:darkkhaki">Question 11</h1>
+    <h2 style="background-color:lightcoral">  Give an example of async/await ?</h2>
+    Async/Await are used to handle promisee more efficiently. The word before a function always means that the function always returns a promise.
+    So, we use async before the function name to return a promise instead of a value.
+   <br>
+   Await is used to wait for the result that is to be returned from the promise.
+   <br> So, we use await when we are calling a function which returns a promise. Also we can use them (Async/Await) for making API calls.
+
+   <br>
+   Await is always used with the keyword Async.
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
